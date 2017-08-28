@@ -16,7 +16,7 @@ Notation "'do' X <- A ; B" :=
   (bind A (fun X => B))
   (at level 200, X ident, A at level 100, B at level 200).
 
-(* Example IO actions *)
+(* Example IO actions, implemented in OCaml *)
 Parameter putStr: string -> IO unit.
 Parameter getLine: unit -> IO string.
 
