@@ -7,6 +7,9 @@
 *.cmx
 *.cmxs
 *.cmxa
+*.glob
+*.vo
+*.aux
 
 # ocamlbuild working directory
 _build/
@@ -18,3 +21,14 @@ _build/
 # oasis generated files
 setup.data
 setup.log
+
+# Coq extraction files
+extraction/Ascii.ml
+extraction/Ascii.mli
+extraction/CoqMain.ml
+extraction/CoqMain.mli
+extraction/Datatypes.ml
+extraction/Datatypes.mli
+extraction/STAMP
+extraction/String0.ml
+extraction/String0.mli
